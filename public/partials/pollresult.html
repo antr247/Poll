@@ -1,0 +1,26 @@
+<div class="resultBody">
+	<table class="result-table">
+			<tr ng-repeat="choice in poll.choices">
+				<td>{{choice.text}}</td>
+				<td>
+					<table style="background-color: lightblue; width: {{choice.votes.length/totalVotes*100}}%; text-align: right">
+						<tr><td>{{choice.votes.length}}</td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+		<p>
+
+			<em>
+				{{totalVotes}} votes counted so far.
+			</em>
+		</p>
+
+		<p><hr></p>
+
+		<p><a href="#/home" class="btn btn-default" role="button"><span class="glyphicon glyphicon-arrow-left"></span> Back to Poll List</a>
+		</p>
+</div
+
+<p>&nbsp;</p>

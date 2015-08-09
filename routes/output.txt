@@ -1,0 +1,57 @@
+HERE IS theDoc CONTENT:------------------
+{ question: 'drink?',
+  id: 5587ad060a9e110816f9f1a8,
+  choices:
+   [{ text: 'water',
+     _id: 5587ad060a9e110816f9f1ab,
+     votes:
+      [ { ip: 'tin', _id: 5587ad260a9e110816f9f1ac },
+        { ip: 'tin', _id: 5587ad670a9e110816f9f1ad },
+        { ip: 'tin', _id: 5587af9f3a9941a416046ee6 },
+        { ip: 'tin', _id: 5587afd63a9941a416046ee7 },
+        { ip: 'tin', _id: 558831162f839a5c05319979 },
+        { ip: 'tin', _id: 558834c2343376341d39aff1 },
+        { ip: 'tin', _id: 5588357e77cbe71c103015c3 } ] }
+   { text: 'soda',
+     _id: 5587ad060a9e110816f9f1aa,
+     votes: [ { ip: 'tin', _id: 5587b17b009f4e48120ec321 } ] }
+   { text: 'beer',
+     _id: 5587ad060a9e110816f9f1a9,
+     votes:
+      [ { ip: 'tin', _id: 55885e3ab3b52b8815d62af1 },
+        { ip: 'tin', _id: 55885ed107890c4018f992fa },
+        { ip: 'tin', _id: 5588620032971678125c79d5 } ] }],
+  userVoted: false,
+  totalVotes: 0 }
+----------------------------------------------------------
+  HERE theDoc #2 CONTENT:--------
+{ question: 'drink?',
+  id: 5587ad060a9e110816f9f1a8,
+  choices:
+   [{ text: 'water',
+     _id: 5587ad060a9e110816f9f1ab,
+     votes:
+      [ { ip: 'tin', _id: 5587ad260a9e110816f9f1ac },
+        { ip: 'tin', _id: 5587ad670a9e110816f9f1ad },
+        { ip: 'tin', _id: 5587af9f3a9941a416046ee6 },
+        { ip: 'tin', _id: 5587afd63a9941a416046ee7 },
+        { ip: 'tin', _id: 558831162f839a5c05319979 },
+        { ip: 'tin', _id: 558834c2343376341d39aff1 },
+        { ip: 'tin', _id: 5588357e77cbe71c103015c3 } ] }
+   { text: 'soda',
+     _id: 5587ad060a9e110816f9f1aa,
+     votes: [ { ip: 'tin', _id: 5587b17b009f4e48120ec321 } ] }
+   { text: 'beer',
+     _id: 5587ad060a9e110816f9f1a9,
+     votes:
+      [ { ip: 'tin', _id: 55885e3ab3b52b8815d62af1 },
+        { ip: 'tin', _id: 55885ed107890c4018f992fa },
+        { ip: 'tin', _id: 5588620032971678125c79d5 } ] }],
+  userVoted: true,
+  totalVotes: 11,
+  ip: 'tin',
+  userChoice: { _id: 5587ad060a9e110816f9f1a9, text: 'beer' } }
+
+
+
+
